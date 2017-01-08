@@ -53,10 +53,10 @@ fi
 zenity --info --timeout 3 --text "Starting PiClock......." >/dev/null 2>&1 &
 
 # stop screen blanking
-echo "Disabling screen blanking...."
-xset s off
-xset -dpms
-xset s noblank
+# echo "Disabling screen blanking...."
+# xset s off
+# xset -dpms
+# xset s noblank
 
 # get rid of mouse cursor
 pgrep unclutter >/dev/null 2>&1
